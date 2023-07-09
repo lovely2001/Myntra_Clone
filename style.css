@@ -1,0 +1,123 @@
+*{
+  margin:0;
+  font-family: Arial;
+  border: border-box;
+}
+
+
+header {
+  height: 80px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  padding: 0px 3vw;
+}
+
+.hov:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(252, 5, 169);
+  text-decoration-thickness: 3px;
+}
+
+.left{
+  display: flex;
+}
+
+.left img {
+  width: 65px;
+  height: 60px;
+}
+
+nav {
+  font-size: 12.5px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 9px;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+}
+
+.search{
+  width:23vw;
+  height: 28px;
+  position: absolute;
+  top: 20px;
+  right: 330px;
+}
+
+.ic-profile {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  right: 230px;
+
+}
+
+.ic-wishlist{
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  right: 140px;
+
+}
+
+.ic-bag {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+
+}
+
+/* -------------------------------------------------------------------------------------------- */
+
+/* for hero section */
+.section1 {
+  padding: 0 5vw;
+  height: 122vh;
+  position: absolute;
+  top: 68px;
+}
+
+.slide {
+  height: 400px;
+  position: relative;
+  background-image: url('Images/p1.PNG');
+  background-size: 100% 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-top: 38px;
+}
+
+.h2{
+  font-size: 22px;
+  color: #699584;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.p1 {
+  width: 150px;
+  height: 200px;
+}
+
+
+
+
+
+
